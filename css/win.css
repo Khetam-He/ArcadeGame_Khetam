@@ -1,0 +1,62 @@
+html {
+     box-sizing: border-box;
+     background-image: url('../images/game-bck1.jpg');
+}
+ *, *::before, *::after {
+     box-sizing: inherit;
+}
+ html, body {
+     width: 70%;
+     height: 50%;
+     margin: 0;
+     padding: 0;
+}
+ body {
+     font-family: 'Coda', cursive;
+}
+ .container {
+     display: flex;
+     justify-content: center;
+     text-align: center;
+     flex-direction: column;
+     position: absolute;
+     width: 60%;
+     padding: 50px;
+     margin-top: 10%;
+     margin-left: 20%;
+}
+ .check {
+     margin: 0;
+     padding: 0;
+     display: inline-block;
+     font-size: 50px;
+}
+ h1 {
+     font-family: 'Open Sans', sans-serif;
+     font-size: 70px;
+     color: #6794f2 ;
+     margin: auto;
+}
+ h2 {
+     font-family: 'Open Sans', sans-serif;
+     font-size: 70px;
+     color:#0b7754 ;
+}
+ span{
+     font-family: 'Open Sans', sans-serif;
+     font-size: 30px;
+     color: #6794f2;
+}
+ div{
+     margin:20px;
+     font-family: 'Open Sans', sans-serif;
+     font-size: 30px;
+     color: cadetblue;
+}
+ @media screen and (min-width: 200px ){
+     .container{
+         width: 100%;
+         margin-left: auto;
+         margin-right: auto;
+    }
+}
